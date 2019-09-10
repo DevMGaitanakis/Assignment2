@@ -1,0 +1,29 @@
+/*********************************************************************
+**********************************************************************
+Cherry - Design System
+Entry Points
+**********************************************************************
+*********************************************************************/
+
+@import '../../../node_modules/cherry-grid/dist/css/styles.css';
+@import './globals.css';
+
+@import './gopablo.css';
+
+.section{
+    font-size: 2em;
+}
+
+h1{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1em;
+    opacity: 1;
+    transition: 2s;
+}
+
+p.out{
+    opacity: 0;
+}
