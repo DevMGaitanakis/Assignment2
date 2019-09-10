@@ -83,6 +83,7 @@ function devServer() {
 		server: {
 			baseDir: './build',
 		},
+		port: 8181,
 		middleware: [modRewrite(['^.([^\\.]+)$ /$1.html [L]'])],
 	});
 
